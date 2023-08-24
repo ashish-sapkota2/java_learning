@@ -1,3 +1,5 @@
+package main;
+
 import person.NonVegan;
 import person.Person;
 import person.Vegan;
