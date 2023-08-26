@@ -14,7 +14,7 @@ public class Main {
         num.add(20);
         num.add(5);
         num.add(15);
-        Collections.sort(num);
+        Collections.sort(cars);
         System.out.println(num);
         for (String i : cars) { // for each loop
             System.out.println(i);
