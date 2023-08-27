@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner text = new Scanner(System.in);
         try {
-            File myObj = new File("files/new.txt");
+            File myObj = new File("java_core_and_advance/files/new.txt");
             if (myObj.createNewFile()) {
                 System.out.println("File Created : " + myObj.getName());
 
@@ -24,8 +24,9 @@ public class Main {
                     // Desktop desktop = Desktop.getDesktop();
                     // desktop.open(myObj);
                     // write into file
-                    FileWriter myWrite = new FileWriter(myObj);
+                    FileWriter myWrite = new FileWriter(myObj, true);
 
+                    myWrite.append(text1);
                     myWrite.append(text1);
                     // close file
                     myWrite.close();
