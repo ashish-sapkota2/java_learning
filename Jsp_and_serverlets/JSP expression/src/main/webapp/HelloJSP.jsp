@@ -13,5 +13,23 @@
 <%= new java.util.Date() %>
 <br/>
 <%= 25>4 %>
+
+<%
+int x= 10;
+out.println(x);
+if(x>25){
+	out.println("X is greater than 25");
+}else{
+	out.println("x is not grater than 25");
+}
+
+%>
+<%!
+//declaration block <%!
+	String message(){
+	return "This is string";
+}
+%>
+<%= message() %>
 </body>
 </html>
